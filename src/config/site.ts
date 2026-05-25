@@ -37,6 +37,7 @@ export const siteConfig = {
         'ro.openterface.com',
         'cn.openterface.com',
         'hk.openterface.com',
+        'tw.openterface.com',
         'ru.openterface.com',
         'ar.openterface.com',
         'tr.openterface.com',
@@ -44,7 +45,7 @@ export const siteConfig = {
         'nl.openterface.com',
         'news.openterface.com',
         'docs.openterface.com',
-      ],
+      ]
     },
     ahrefs: { dataKey: 'b3G5nUND8OglcZwfjfwixQ' },
     consent: {
