@@ -9,13 +9,14 @@ export const localeNavLabels: EcosystemNavLabels = {
   docs: "التوثيق",
   media: "الوسائط",
   news: "الأخبار",
+  forum: "Forum",
+  forumNewBadge: "جديد",
   accessories: "الملحقات",
   keymodSeries: "KeyMod Series",
   kvmGoSeries: "KVM-GO Series",
   miniKvm: "Mini-KVM",
   kvmExt: "uConsole KVM Extension",
   keycmd: "KeyCmd",
-  community: "Community",
 };
 
 export const localeNavMobile = {
