@@ -9,7 +9,7 @@ export const ar: KeymodLandingStrings = {
     },
     nav: {
       docs: "الوثائق",
-      preLaunchCta: "قبل الإطلاق",
+      preLaunchCta: "ادعم على Crowd Supply",
     },
     povTabs: {
       keyboard: "لوحة المفاتيح",
@@ -28,7 +28,7 @@ export const ar: KeymodLandingStrings = {
       equationEquals: "=",
       lead: "قم بتوصيله بالجهاز المستهدف. تحكم عبر BLE، بدون تعريف، جاهز لـ BIOS. خادم، كمبيوتر شخصي، أو وحدة ألعاب. أي منفذ USB.",
       docsCta: "الوثائق",
-      preLaunchCta: "ما قبل الإطلاق",
+      preLaunchCta: "ادعم على Crowd Supply",
     },
     whatItIs: {
       eyebrow: "ما هو",
@@ -49,7 +49,7 @@ export const ar: KeymodLandingStrings = {
       eyebrow: "اختر منفذك",
       title: "ميني مقابل بلاس",
       stackLine: "نفس تطبيق KeyCmd. دونجل مختلف حسب المنفذ في جهازك.",
-      crowdSupplyCta: "الطلب المُسبق على Crowd Supply",
+      crowdSupplyCta: "مباشر على Crowd Supply",
       mini: {
         name: "KeyMod Mini",
         port: "ذكر USB-C → الهدف",
@@ -127,10 +127,10 @@ export const ar: KeymodLandingStrings = {
         mediaLabel: "تخطيط هجين KM Pro من منظور المستخدم (عنصر نائب)",
       },
       proTerminal: {
-        badge: "Terminal · معاينة",
+        badge: "Terminal",
         title: "SSH من هاتفك",
-        lead: "USB عند التوصيل السلكي. بلوتوث عند الرف. عروض المعاينة تُشحن في KeyCmd اليوم.",
-        body: "وضع Terminal مخصص في KeyCmd: SSH عبر USB ECM (Plus) أو BLE-Eth (Mini). الربط الإنتاجي الكامل يتبع المرحلة الثانية من برنامج KeyMod الثابت.",
+        lead: "افتح جلسات SSH مباشرة من KeyCmd. USB عند التوصيل بالسلك. Bluetooth عند الرف.",
+        body: "وضع Terminal في KeyCmd: SSH عبر USB ECM (Plus) أو BLE-Eth (Mini). يعمل اليوم مع أهداف macOS و Linux.",
         mediaLabel: "جلسة SSH Terminal (نقل USB، إعادة تصوير)",
       },
       composeSend: {
@@ -262,19 +262,19 @@ export const ar: KeymodLandingStrings = {
           ],
         },
         terminal: {
-          badge: "المحطة الطرفية · معاينة",
+          badge: "Terminal",
           title: "اتصل عبر SSH من هاتفك",
           body: "تشغّل وضع المحطة الطرفية المخصص SSH عبر جسر KeyMod. اختر USB للسرعة عند الجهاز، أو Bluetooth عندما تكون في الجهة الأخرى من الغرفة.",
-          experimentalHint: "ميزة معاينة. يتبع SSH المباشر عبر أجهزة KeyMod المرحلة الثانية من البرنامج الثابت.",
+          experimentalHint: "",
           demo: {
             interactiveDemoLabel: "عرض تفاعلي",
-            title: "معاينة المحطة الطرفية",
+            title: "عرض Terminal",
             summary: "جرب إعادة تشغيل جلسة SSH الجاهزة. لا يتطلب أي أجهزة.",
             statusDisconnected: "غير متصل",
             statusConnecting: "جارٍ الاتصال…",
             statusConnected: "متصل",
-            demoBleLabel: "معاينة العرض (Bluetooth)",
-            demoUsbLabel: "معاينة العرض (USB)",
+            demoBleLabel: "العرض (Bluetooth)",
+            demoUsbLabel: "العرض (USB)",
             transportBle: "BLE",
             transportUsb: "USB",
             uiFidelityNote: "واجهة تقريبية. تحقق من KeyCmd على هاتفك للتطبيق المباشر.",
@@ -288,9 +288,9 @@ export const ar: KeymodLandingStrings = {
           },
           ble: {
             label: "BLE-Eth · KeyMod Mini",
-            body: "SSH لاسلكي عندما يكون Mini على الهدف. يُنصح بهندسة محطة طرفية مدمجة. معاينة العرض متاحة في KeyCmd اليوم.",
+            body: "SSH لاسلكي عندما يكون Mini على الهدف. يُنصح بهندسة محطة طرفية مدمجة.",
           },
-          notice: "يوفر KeyCmd اليوم واجهة المحطة الطرفية ومجموعة النقل مع عروض المعاينة (USB و Bluetooth). يتبع SSH المباشر عبر أجهزة KeyMod اعتماد المرحلة الثانية من البرنامج الثابت.",
+          notice: "وضع Terminal متاح اليوم في KeyCmd. افتح جلسات SSH عبر جسر KeyMod على أهداف macOS و Linux. دعم أهداف Windows عبر RNDIS قيد التطوير.",
         },
       },
       gameZone: {
@@ -471,10 +471,10 @@ export const ar: KeymodLandingStrings = {
     productJourney: {
       eyebrow: "رحلة المنتج",
       title: "من الفكرة إلى مكتبك",
-      subtitle: "سبعة إنجازات مكتملة. التحقق ما قبل الإطلاق جارٍ الآن. التمويل الجماعي والتسليم التالي.",
+      subtitle: "ثماني مراحل منجزة. تم توزيع عينات هندسية محدودة. التمويل الجماعي مباشر على Crowd Supply.",
       scrollHint: "← اسحب للإنجازات السابقة",
       nowLabel: "الآن",
-      nowSublabel: "ما قبل الإطلاق · التحقق النهائي للعتاد والبرامج الثابتة",
+      nowSublabel: "التمويل الجماعي مباشر على Crowd Supply",
       milestones: [
         {
           id: "concept",
@@ -491,8 +491,8 @@ export const ar: KeymodLandingStrings = {
         {
           id: "cs-prelaunch",
           status: "done",
-          title: "ما قبل الإطلاق على Crowd Supply",
-          lead: "صفحة الحملة متاحة. تابع لليوم الأول للإطلاق.",
+          title: "حملة Crowd Supply مباشرة",
+          lead: "الحملة مباشرة. ادعم KeyMod لتأمين جهازك.",
           href: keymodLinks.crowdSupply,
         },
         {
@@ -521,19 +521,16 @@ export const ar: KeymodLandingStrings = {
         },
         {
           id: "beta-2",
-          status: "upcoming",
-          variant: "beta",
-          badge: "تجريبي · الجولة الثانية",
-          title: "دعوات المرحلة التجريبية التالية",
-          lead: "تجربة مغلقة أوسع على البرامج الثابتة والعتاد المُحدّث قبل التمويل الجماعي.",
-          timingLabel: "قبل الإطلاق",
-          href: "#updates",
+          status: "done",
+          title: "تم توزيع العينات الهندسية",
+          lead: "تم تخصيص وحدات هندسية محدودة للداعمين الأوائل للتحقق في العالم الحقيقي.",
         },
         {
           id: "crowdfunding",
-          status: "upcoming",
-          title: "انطلاق التمويل الجماعي",
-          timingLabel: "~Mid-July 2026",
+          status: "done",
+          title: "التمويل الجماعي مباشر",
+          timingLabel: "أغسطس 2026",
+          href: keymodLinks.crowdSupply,
         },
         {
           id: "campaign",
@@ -577,15 +574,15 @@ export const ar: KeymodLandingStrings = {
     },
     crowdSupplyCampaign: {
       eyebrow: "Crowd Supply",
-      title: "الإطلاق المسبق على Crowd Supply",
-      body: "ادعم KeyMod Mini و Plus على Crowd Supply — جسور USB بحجم الجيب تحوّل هاتفك إلى وحدة تحكم لاسلكية. ادعمنا لنجعله واقعاً!",
-      cta: "الإطلاق المسبق",
+      title: "مباشر على Crowd Supply",
+      body: "ادعم KeyMod Mini و Plus على Crowd Supply. جسور USB جيبية تحوّل هاتفك إلى وحدة تحكم لاسلكية. الحملة مباشرة.",
+      cta: "ادعم الحملة",
     },
     crowdSupplySupport: {
       eyebrow: "ادعم المشروع",
       title: "ساعدنا في إطلاق ما هو قادم",
-      body: "تابع KeyMod على Crowd Supply وادعم الحملة عند انطلاقها. الأوضاع التجريبية مثل Agent تُطرح بشكل أسرع عندما يدعمها المزيد من المطورين — فكل داعم يساعد في نقل خارطة طريق البرامج الثابتة من قائمة الانتظار إلى أرض الواقع.",
-      cta: "تابع على Crowd Supply",
+      body: "KeyMod مباشر على Crowd Supply. ادعم الحملة وساعدنا في بناء خارطة طريق البرامج الثابتة. الأوضاع التجريبية مثل Agent تظهر أسرع عندما يدعم المزيد من صانعي المشروع.",
+      cta: "ادعم على Crowd Supply",
     },
     crowdSupplyOpensource: {
       eyebrow: "مفتوح بحكم التصميم",
@@ -608,7 +605,7 @@ export const ar: KeymodLandingStrings = {
       title: "احصل على تحديثات إطلاق KeyMod",
       description: "إطلاقات المنتجات، إصدارات البرامج الثابتة، وأدلة الإعداد. على الأكثر بريد إلكتروني واحد شهريًا. لا بريد عشوائي.",
       benefits: [
-        "وصول مبكر إلى نوافذ التمويل الجماعي والطلب المسبق",
+        "وصول مباشر إلى حملة Crowd Supply",
         "أدلة الإعداد وملاحظات إصدار KeyCmd",
         "إلغاء الاشتراك في أي وقت بنقرة واحدة",
       ],
