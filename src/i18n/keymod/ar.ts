@@ -572,7 +572,22 @@ export const ar: KeymodLandingStrings = {
       cta: "تعرّف على KeyCmd",
       mediaLabel: "شاشة الترحيب في KeyCmd، اختر وضع التحكم",
     },
-    crowdSupplyCampaign: {
+    crowdSupplyStats: {
+    eyebrow: 'Campaign progress',
+    title: 'Live on Crowd Supply',
+    ofGoal: 'of {goal} goal',
+    funded: 'Funded',
+    overFunded: 'Stretch goal unlocked!',
+    backers: 'backers',
+    daysLeft: 'days left',
+    updates: 'updates',
+    cta: 'Back the campaign',
+    lastUpdated: 'Updated',
+    updatedJustNow: 'just now',
+    updatedYesterday: 'yesterday',
+    fallbackText: 'Campaign is live on Crowd Supply.',
+  },
+  crowdSupplyCampaign: {
       eyebrow: "Crowd Supply",
       title: "مباشر على Crowd Supply",
       body: "ادعم KeyMod Mini و Plus على Crowd Supply. جسور USB جيبية تحوّل هاتفك إلى وحدة تحكم لاسلكية. الحملة مباشرة.",
